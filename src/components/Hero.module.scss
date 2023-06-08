@@ -1,4 +1,6 @@
 .hero {
+  composes: maxWidth from global;
+
   width: 600px;
   margin-top: 40px;
 

@@ -1,4 +1,6 @@
 .header {
+  composes: maxWidth from global;
+
   margin-top: 1.2rem;
   display: flex;
   justify-content: flex-end;

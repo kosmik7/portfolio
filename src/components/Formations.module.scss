@@ -1,5 +1,7 @@
 .container {
   composes: maxWidth from global;
+
+  width: fit-content;
   margin-top: 30px;
 }
 
