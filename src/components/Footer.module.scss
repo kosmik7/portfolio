@@ -1,0 +1,34 @@
+.wrapper {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  composes: maxWidth from global;
+
+  color: #fff;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+  }
+}

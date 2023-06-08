@@ -4,8 +4,9 @@ import App from "./App.jsx";
 import "./styles/index.module.scss";
 // fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-library.add(faGithub);
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+library.add(faEnvelope, faGithub, faLinkedin);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
