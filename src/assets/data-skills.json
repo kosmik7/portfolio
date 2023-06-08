@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "/src/assets/ico-html.svg"
+    },
+    {
+      "name": "CSS",
+      "icon": "/src/assets/ico-css.svg"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "/src/assets/ico-js.svg"
+    },
+    {
+      "name": "React",
+      "icon": "/src/assets/ico-react.svg"
+    },
+    {
+      "name": "Redux",
+      "icon": "/src/assets/ico-redux.svg"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "icon": "/src/assets/ico-git.svg"
+    },
+    {
+      "name": "GitHub",
+      "icon": "/src/assets/ico-github.svg"
+    },
+    {
+      "name": "Figma",
+      "icon": "/src/assets/ico-figma.svg"
+    },
+    {
+      "name": "Sass",
+      "icon": "/src/assets/ico-sass.svg"
+    },
+    {
+      "name": "Vite",
+      "icon": "/src/assets/ico-vite.svg"
+    },
+    {
+      "name": "Webpack",
+      "icon": "/src/assets/ico-webpack.svg"
+    }
+  ],
+  "other": [
+    {
+      "name": "Wordpress",
+      "icon": "/src/assets/ico-wordpress.svg"
+    },
+    {
+      "name": "Illustrator",
+      "icon": "/src/assets/ico-illustrator.svg"
+    },
+    {
+      "name": "Photoshop",
+      "icon": "/src/assets/ico-photoshop.svg"
+    }
+  ]
+}
