@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Argent Bank",
+    "description": "Implémentez le front-end d'une application bancaire avec React",
+    "image": "/src/assets/img-projet1.png",
+    "link": "https://github.com/kosmik7/oc-projet-11",
+    "tags": ["Front-End", "API"],
+    "tools": ["React", "Redux"]
+  },
+  {
+    "name": "77 Events",
+    "description": "Débuggez le site d'une agence d'événementiel",
+    "image": "/src/assets/img-projet2.png",
+    "link": "https://github.com/kosmik7/oc-projet-10",
+    "tags": ["Front-End"],
+    "tools": ["React"]
+  },
+  {
+    "name": "Kasa",
+    "description": "Créez une application web de location immobilière avec React",
+    "image": "/src/assets/img-projet3.png",
+    "link": "https://github.com/kosmik7/oc-projet-8",
+    "tags": ["Front-End"],
+    "tools": ["React"]
+  },
+  {
+    "name": "Portfolio Architecte",
+    "description": "Créez une page web dynamique avec JavaScript",
+    "image": "/src/assets/img-projet4.png",
+    "link": "https://github.com/kosmik7/oc-projet-6",
+    "tags": ["Front-End", "API"],
+    "tools": ["javascript"]
+  }
+]
