@@ -1,0 +1,23 @@
+.header {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 60px;
+
+  ul {
+    display: flex;
+    gap: 16px;
+
+    a {
+      padding: 5px 12px;
+      font-size: 20px;
+      text-decoration: none;
+      color: #000;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}
