@@ -1,0 +1,26 @@
+.container {
+  composes: maxWidth from global;
+  margin-top: 30px;
+}
+
+.flexWrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formation {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid rgba(30, 30, 30, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+
+  span:first-child {
+    font-size: 20px;
+  }
+}
