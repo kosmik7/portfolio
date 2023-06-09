@@ -40,9 +40,9 @@ function Projet({ image, name, description, link, tags, tools }) {
               </Button>
             ))}
           </div>
-          <div>
+          <div className={styles.tools}>
             {tools.map((item) => (
-              <span key={item}>{item}</span>
+              <img key={item} src={item} />
             ))}
           </div>
         </div>

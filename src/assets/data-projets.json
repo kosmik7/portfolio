@@ -5,7 +5,7 @@
     "image": "/portfolio/images/projet1.jpg",
     "link": "https://github.com/kosmik7/oc-projet-11",
     "tags": ["Front-End", "API"],
-    "tools": ["React", "Redux"]
+    "tools": ["/portfolio/icons/react.svg", "/portfolio/icons/redux.svg"]
   },
   {
     "name": "77 Events",
@@ -13,7 +13,7 @@
     "image": "/portfolio/images/projet2.jpg",
     "link": "https://github.com/kosmik7/oc-projet-10",
     "tags": ["Front-End"],
-    "tools": ["React"]
+    "tools": ["/portfolio/icons/react.svg"]
   },
   {
     "name": "Kasa",
@@ -21,7 +21,7 @@
     "image": "/portfolio/images/projet3.jpg",
     "link": "https://github.com/kosmik7/oc-projet-8",
     "tags": ["Front-End"],
-    "tools": ["React"]
+    "tools": ["/portfolio/icons/react.svg"]
   },
   {
     "name": "Portfolio Architecte",
@@ -29,6 +29,6 @@
     "image": "/portfolio/images/projet4.jpg",
     "link": "https://github.com/kosmik7/oc-projet-6",
     "tags": ["Front-End", "API"],
-    "tools": ["javascript"]
+    "tools": ["/portfolio/icons/js.svg"]
   }
 ]
