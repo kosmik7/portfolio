@@ -2,63 +2,63 @@
   "skills": [
     {
       "name": "HTML",
-      "icon": "/src/assets/ico-html.svg"
+      "icon": "/portfolio/icons/html.svg"
     },
     {
       "name": "CSS",
-      "icon": "/src/assets/ico-css.svg"
+      "icon": "/portfolio/icons/css.svg"
     },
     {
       "name": "JavaScript",
-      "icon": "/src/assets/ico-js.svg"
+      "icon": "/portfolio/icons/js.svg"
     },
     {
       "name": "React",
-      "icon": "/src/assets/ico-react.svg"
+      "icon": "/portfolio/icons/react.svg"
     },
     {
       "name": "Redux",
-      "icon": "/src/assets/ico-redux.svg"
+      "icon": "/portfolio/icons/redux.svg"
     }
   ],
   "tools": [
     {
       "name": "Git",
-      "icon": "/src/assets/ico-git.svg"
+      "icon": "/portfolio/icons/git.svg"
     },
     {
       "name": "GitHub",
-      "icon": "/src/assets/ico-github.svg"
+      "icon": "/portfolio/icons/github.svg"
     },
     {
       "name": "Figma",
-      "icon": "/src/assets/ico-figma.svg"
+      "icon": "/portfolio/icons/figma.svg"
     },
     {
       "name": "Sass",
-      "icon": "/src/assets/ico-sass.svg"
+      "icon": "/portfolio/icons/sass.svg"
     },
     {
       "name": "Vite",
-      "icon": "/src/assets/ico-vite.svg"
+      "icon": "/portfolio/icons/vite.svg"
     },
     {
       "name": "Webpack",
-      "icon": "/src/assets/ico-webpack.svg"
+      "icon": "/portfolio/icons/webpack.svg"
     }
   ],
   "other": [
     {
       "name": "Wordpress",
-      "icon": "/src/assets/ico-wordpress.svg"
+      "icon": "/portfolio/icons/wordpress.svg"
     },
     {
       "name": "Illustrator",
-      "icon": "/src/assets/ico-illustrator.svg"
+      "icon": "/portfolio/icons/illustrator.svg"
     },
     {
       "name": "Photoshop",
-      "icon": "/src/assets/ico-photoshop.svg"
+      "icon": "/portfolio/icons/photoshop.svg"
     }
   ]
 }
