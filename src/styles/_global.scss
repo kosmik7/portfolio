@@ -10,6 +10,12 @@
       margin-left: 40px;
       margin-right: 40px;
     }
+
+    @media screen and (max-width: 480px) {
+      width: calc(100% - 40px);
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
   .fullWidth {
     width: 100%;
