@@ -4,7 +4,7 @@ import styles from "./Button.module.scss";
 Button.propTypes = {
   type: PropTypes.string,
   onClick: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
   style: PropTypes.string,
 };
 

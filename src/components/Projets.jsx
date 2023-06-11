@@ -9,8 +9,8 @@ Projet.propTypes = {
   name: PropTypes.string,
   description: PropTypes.string,
   link: PropTypes.string,
-  tags: PropTypes.string,
-  tools: PropTypes.string,
+  tags: PropTypes.array,
+  tools: PropTypes.array,
 };
 
 Projet.defaultProps = {
