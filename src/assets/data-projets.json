@@ -1,31 +1,31 @@
 [
   {
-    "name": "Argent Bank",
-    "description": "Implémentez le front-end d'une application bancaire avec React",
+    "name": "Argent Bank: Implémentez le front-end d'une application bancaire avec React",
+    "description": "Intégration de la maquette avec React et gestion du state avec Redux toolkit.\nL'utilisateur peut s'authentifier, voir son profil privé et editer ses informations.",
     "image": "/portfolio/images/projet1.jpg",
     "link": "https://github.com/kosmik7/oc-projet-11",
     "tags": ["Front-End", "API"],
     "tools": ["/portfolio/icons/react.svg", "/portfolio/icons/redux.svg"]
   },
   {
-    "name": "77 Events",
-    "description": "Débuggez le site d'une agence d'événementiel",
+    "name": "77 Events: Débuggez le site d'une agence d'événementiel",
+    "description": "Utilisation des outils de débogage, réalisation de tests unitaires et d'intégration avec jest et rédaction d'un cahier de recette.",
     "image": "/portfolio/images/projet2.jpg",
     "link": "https://github.com/kosmik7/oc-projet-10",
     "tags": ["Front-End"],
     "tools": ["/portfolio/icons/react.svg"]
   },
   {
-    "name": "Kasa",
-    "description": "Créez une application web de location immobilière avec React",
+    "name": "Kasa: Créez une application web de location immobilière avec React",
+    "description": "Intégration d'une maquette avec React et Styled components.\nUtilisation de React-router et données provenant de fichiers JSON",
     "image": "/portfolio/images/projet3.jpg",
     "link": "https://github.com/kosmik7/oc-projet-8",
     "tags": ["Front-End"],
     "tools": ["/portfolio/icons/react.svg"]
   },
   {
-    "name": "Portfolio Architecte",
-    "description": "Créez une page web dynamique avec JavaScript",
+    "name": "Portfolio Architecte: Créez une page web dynamique avec JavaScript",
+    "description": "Récupération des travaux depuis le back-end et affichage avec un filtrage par catégorie.\nPage d'authentification pour l'administrateur et intégration d'une interface pour ajouter ou supprimer des travaux sur le back-end.",
     "image": "/portfolio/images/projet4.jpg",
     "link": "https://github.com/kosmik7/oc-projet-6",
     "tags": ["Front-End", "API"],

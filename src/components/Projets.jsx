@@ -25,26 +25,25 @@ function Projet({ image, name, description, link, tags, tools }) {
       <div className={styles.projetInfo}>
         <h3>{name}</h3>
         <p>{description}</p>
-        <a href=""></a>
-        <div className={styles.tags}>
-          <div>
-            <a href={link}>
-              <Button>
-                <FontAwesomeIcon icon="fa-brands fa-github" />
-                GitHub
-              </Button>
-            </a>
-            {tags.map((item) => (
-              <Button key={item} disabled>
-                {item}
-              </Button>
-            ))}
-          </div>
-          <div className={styles.tools}>
-            {tools.map((item) => (
-              <img key={item} src={item} />
-            ))}
-          </div>
+      </div>
+      <div className={styles.tags}>
+        <div>
+          <a href={link}>
+            <Button>
+              <FontAwesomeIcon icon="fa-brands fa-github" />
+              GitHub
+            </Button>
+          </a>
+          {tags.map((item) => (
+            <Button key={item} disabled>
+              {item}
+            </Button>
+          ))}
+        </div>
+        <div className={styles.tools}>
+          {tools.map((item) => (
+            <img key={item} src={item} />
+          ))}
         </div>
       </div>
     </div>
