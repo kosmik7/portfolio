@@ -1,20 +1,29 @@
 # Portfolio
 
-## Scripts disponibles
+[![Website](https://img.shields.io/website?label=Voir%20le%20projet%20en%20ligne&url=https%3A%2F%2Fkosmik7.github.io%2Fportfolio)](https://kosmik7.github.io/portfolio)
 
-Dans le répertoire du projet, vous pouvez exécuter :
+## Lancement du projet
 
-### `npm install`
+Cloner le dépôt:
 
-Installe toutes les dépendances du projet.
+```bash
+git clone https://github.com/kosmik7/portfolio.git
+cd portfolio
+```
 
-### `npm run dev`
+Dans le répertoire du projet, vous pouvez exécuter:
 
-Exécute l'application en mode développement.
-Ouvrez http://localhost:5173/portfolio pour l'afficher dans votre navigateur.
+```bash
+# Installe la version de node spécifiée dans le fichier .nvmrc
+nvm install
 
-La page se rechargera lorsque vous apporterez des modifications.
+# Installe les dépendances du projet
+npm install
 
-### `npm run build`
+# Exécute l'application en mode développement.
+# Ouvrez http://localhost:5173/portfolio pour l'afficher dans votre navigateur
+npm run dev
 
-Une commande qui bundle votre code avec Rollup, pré-configuré pour générer des assets statiques hautement optimisés pour la production.
+# Une commande qui bundle votre code avec Rollup, pré-configuré pour générer des assets statiques optimisés pour la production
+npm run build
+```
