@@ -22,7 +22,7 @@ export default function Footer() {
                 Github
               </Button>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/jean-philippe-brunache-020990280">
               <Button>
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                 LinkedIn
