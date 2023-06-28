@@ -6,11 +6,13 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.container}>
-        <h2>
-          Jean-Philippe <br />
-          Brunache
-        </h2>
-        <h1>Intégrateur web</h1>
+        <div>
+          <h2>
+            Jean-Philippe <br />
+            Brunache
+          </h2>
+          <h1>Intégrateur web</h1>
+        </div>
         <p>
           Passionné par les technologies du web.
           <br />

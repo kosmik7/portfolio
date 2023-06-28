@@ -11,9 +11,12 @@
   justify-content: flex-end;
 
   li {
+    font-family: var(--font-family-heading);
+    font-weight: 400;
+    font-size: 18px;
+
     a {
       padding: 10px 20px;
-      font-size: 20px;
       text-decoration: none;
       color: #000;
     }
@@ -75,7 +78,6 @@
   .navContainer {
     ul {
       display: flex;
-      gap: 16px;
 
       a {
         border-radius: 5px;

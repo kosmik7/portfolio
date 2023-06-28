@@ -4,23 +4,20 @@
   width: 600px;
   margin-top: 40px;
 
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-
   h1 {
     font-size: 32px;
+    color: var(--font-color-lighter);
   }
 
   h2 {
-    font-size: 40px;
+    font-family: var(--font-family-heading);
     font-weight: 700;
-    line-height: 1.2;
+    font-size: 48px;
+    line-height: 1;
   }
 }
 
 .buttons {
-  margin-top: 20px;
   display: flex;
   gap: 20px;
 
@@ -30,6 +27,10 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
   @media screen and (min-width: 641px) {
     width: 600px;
   }
