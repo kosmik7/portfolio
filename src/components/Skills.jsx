@@ -16,26 +16,30 @@ function Skill({ icon, name }) {
   );
 }
 
+Category.propTypes = {
+  category: PropTypes.array,
+  heading: PropTypes.string,
+};
+
+function Category({ category, heading }) {
+  return (
+    <div>
+      <h3>{heading}</h3>
+      <div className={styles.iconsGrid}>
+        {category.map((item) => (
+          <Skill key={item.name} {...item} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Skills() {
   return (
     <div className={styles.container}>
-      <div>
-        {data.skills.map((item) => (
-          <Skill key={item.name} {...item} />
-        ))}
-      </div>
-      <h3>Les outils de que j&apos;utilise</h3>
-      <div>
-        {data.tools.map((item) => (
-          <Skill key={item.name} {...item} />
-        ))}
-      </div>
-      <h3>J&apos;ai pu travailler avec</h3>
-      <div>
-        {data.other.map((item) => (
-          <Skill key={item.name} {...item} />
-        ))}
-      </div>
+      <Category category={data.skills} heading="Stack technique" />
+      <Category category={data.tools} heading="Les outils que j'utilise" />
+      <Category category={data.other} heading="J'ai pu travailler avec" />
     </div>
   );
 }

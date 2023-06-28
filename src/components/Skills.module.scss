@@ -2,34 +2,43 @@
   composes: maxWidth from global;
 
   margin-top: 20px;
-  padding: 25px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr;
+  }
 
-  border-radius: 8px;
-  background-color: #000;
-  color: #fff;
+  > div {
+    overflow: hidden;
+    background-color: var(--color-light-background);
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    box-shadow: var(--box-shadow);
+  }
+
+  .iconsGrid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    gap: 10px;
+  }
 
   h3 {
+    padding: 10px 20px;
     font-size: 20px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    background-color: #fff;
 
     &:before {
       content: "";
       display: inline-block;
       margin-right: 10px;
-      background-color: #fff;
-      width: 2ch;
-      height: 1em;
+      background-color: var(--font-color);
+      width: 0.6em;
+      height: 0.6em;
     }
-  }
-
-  > div {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
   }
 }
 
