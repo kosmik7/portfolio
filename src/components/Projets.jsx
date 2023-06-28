@@ -7,6 +7,7 @@ import styles from "./Projets.module.scss";
 Projet.propTypes = {
   image: PropTypes.string,
   name: PropTypes.string,
+  subtitle: PropTypes.string,
   description: PropTypes.string,
   link: PropTypes.string,
   tags: PropTypes.array,
@@ -18,12 +19,13 @@ Projet.defaultProps = {
   description: "Description du projet",
 };
 
-function Projet({ image, name, description, link, tags, tools }) {
+function Projet({ image, name, subtitle, description, link, tags, tools }) {
   return (
     <div className={styles.projet}>
       <img src={image} alt="" />
       <div className={styles.projetInfo}>
-        <h3>{name}</h3>
+        <span>{name}</span>
+        <h3>{subtitle}</h3>
         <p>{description}</p>
       </div>
       <div className={styles.tags}>
