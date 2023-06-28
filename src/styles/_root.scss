@@ -1,8 +1,13 @@
 :root {
-  margin: 0 auto;
-
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-family-heading: Inter, var(--font-family-body);
+  --font-color: #202124;
+  --font-color-lighter: #5f6368;
+
+  margin: 0 auto;
+  color: var(--font-color);
+  font-family: var(--font-family-body);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
