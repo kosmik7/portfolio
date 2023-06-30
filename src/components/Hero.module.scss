@@ -12,8 +12,12 @@
   h2 {
     font-family: var(--font-family-heading);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1;
+
+    @media screen and (min-width: 641px) {
+      font-size: 48px;
+    }
   }
 }
 

@@ -10,7 +10,7 @@ Skill.propTypes = {
 function Skill({ icon, name }) {
   return (
     <div className={styles.skill}>
-      <img src={icon} alt="" />
+      <img src={icon} alt={"icone de " + name} width="96" height="96" />
       <span>{name}</span>
     </div>
   );

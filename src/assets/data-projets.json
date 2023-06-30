@@ -3,36 +3,36 @@
     "name": "Argent Bank",
     "subtitle": "Implémentez le front-end d'une application bancaire avec React",
     "description": "Intégration de la maquette avec React et gestion du state avec Redux toolkit.\nL'utilisateur peut s'authentifier, voir son profil privé et editer ses informations.",
-    "image": "/portfolio/images/projet1.jpg",
+    "image": "/portfolio/images/projet1",
     "link": "https://github.com/kosmik7/oc-projet-11",
     "tags": ["Front-End", "API"],
-    "tools": ["/portfolio/icons/react.svg", "/portfolio/icons/redux.svg"]
+    "tools": ["react", "redux"]
   },
   {
     "name": "77 Events",
     "subtitle": "Débuggez le site d'une agence d'événementiel",
     "description": "Utilisation des outils de débogage, réalisation de tests unitaires et d'intégration avec jest et rédaction d'un cahier de recette.",
-    "image": "/portfolio/images/projet2.jpg",
+    "image": "/portfolio/images/projet2",
     "link": "https://github.com/kosmik7/oc-projet-10",
     "tags": ["Front-End"],
-    "tools": ["/portfolio/icons/react.svg"]
+    "tools": ["react"]
   },
   {
     "name": "Kasa",
     "subtitle": "Créez une application web de location immobilière avec React",
     "description": "Intégration d'une maquette avec React et Styled components.\nUtilisation de React-router et données provenant de fichiers JSON",
-    "image": "/portfolio/images/projet3.jpg",
+    "image": "/portfolio/images/projet3",
     "link": "https://github.com/kosmik7/oc-projet-8",
     "tags": ["Front-End"],
-    "tools": ["/portfolio/icons/react.svg"]
+    "tools": ["react"]
   },
   {
     "name": "Portfolio Architecte",
     "subtitle": "Créez une page web dynamique avec JavaScript",
     "description": "Récupération des travaux depuis le back-end et affichage avec un filtrage par catégorie.\nPage d'authentification pour l'administrateur et intégration d'une interface pour ajouter ou supprimer des travaux sur le back-end.",
-    "image": "/portfolio/images/projet4.jpg",
+    "image": "/portfolio/images/projet4",
     "link": "https://github.com/kosmik7/oc-projet-6",
     "tags": ["Front-End", "API"],
-    "tools": ["/portfolio/icons/js.svg"]
+    "tools": ["html", "css", "js"]
   }
 ]

@@ -22,30 +22,46 @@ Projet.defaultProps = {
 function Projet({ image, name, subtitle, description, link, tags, tools }) {
   return (
     <div className={styles.projet}>
-      <img src={image} alt="" />
-      <div className={styles.projetInfo}>
-        <span>{name}</span>
-        <h3>{subtitle}</h3>
-        <p>{description}</p>
-      </div>
-      <div className={styles.tags}>
-        <div>
-          <a href={link}>
-            <Button>
-              <FontAwesomeIcon icon="fa-brands fa-github" />
-              GitHub
-            </Button>
-          </a>
-          {tags.map((item) => (
-            <Button key={item} disabled>
-              {item}
-            </Button>
-          ))}
+      <picture className={styles.projetImage}>
+        <source type="image/webp" srcSet={image + ".webp"} />
+        <img
+          src={image + ".jpg"}
+          alt={"Capture d'écran du projet " + name}
+          width="720"
+          height="540"
+        />
+      </picture>
+      <div>
+        <div className={styles.projetInfo}>
+          <span>{name}</span>
+          <h3>{subtitle}</h3>
+          <p>{description}</p>
         </div>
-        <div className={styles.tools}>
-          {tools.map((item) => (
-            <img key={item} src={item} />
-          ))}
+        <div className={styles.tags}>
+          <div>
+            <a href={link}>
+              <Button>
+                <FontAwesomeIcon icon="fa-brands fa-github" />
+                GitHub
+              </Button>
+            </a>
+            {tags.map((item) => (
+              <Button key={item} disabled>
+                {item}
+              </Button>
+            ))}
+          </div>
+          <div className={styles.tools}>
+            {tools.map((item) => (
+              <img
+                key={item}
+                src={"/portfolio/icons/" + item + ".svg"}
+                alt={"icone de " + item}
+                width="16px"
+                height="16px"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
