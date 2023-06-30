@@ -29,12 +29,11 @@ export default function Footer() {
               </Button>
             </a>
           </div>
-          <p>Ou via le formulaire de contact</p>
           <p>
             Ce site a été réalisé à la main et ne collecte aucune donnée. Vous
             pouvez trouver le code source sur{" "}
-            <a href="https://github.com/kosmik7/portfolio">GitHub</a>. Merci de
-            votre visite, passez une bonne journée ! 👋
+            <a href="https://github.com/kosmik7/portfolio">GitHub</a>.<br />
+            Merci de votre visite, passez une bonne journée ! 👋
           </p>
         </div>
       </div>

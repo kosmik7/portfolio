@@ -1,23 +1,30 @@
 .wrapper {
+  contain: content;
+
   margin-top: 40px;
   padding-bottom: 40px;
-  background-color: #000;
+  background-color: #1b1b1b;
   color: #fff;
 }
 
 .container {
   composes: maxWidth from global;
   color: #fff;
+
+  a {
+    color: #8cb4ff;
+  }
 }
 
 .contactContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   max-width: 600px;
 
   > h2 {
     margin-left: 0;
+  }
+
+  p {
+    margin-top: 30px;
   }
 }
 
@@ -33,5 +40,11 @@
     background-color: #fff;
     border-color: #fff;
     color: #000;
+
+    &:hover {
+      background-color: hsl(0, 0%, 80%);
+      border-color: hsl(0, 0%, 80%);
+      color: #000;
+    }
   }
 }
