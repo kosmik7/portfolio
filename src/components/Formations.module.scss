@@ -16,13 +16,26 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  white-space: pre-line;
 
-  border: 1px solid rgba(30, 30, 30, 0.1);
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  background-color: var(--color-light-background);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--box-shadow);
+}
 
-  span:first-child {
-    font-size: 20px;
-  }
+.title {
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.subtitle {
+  color: var(--font-color-lighter);
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 30px;
 }

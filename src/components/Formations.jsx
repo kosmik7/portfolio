@@ -4,14 +4,16 @@ import styles from "./Formations.module.scss";
 
 Formation.propTypes = {
   name: PropTypes.string,
+  subtitle: PropTypes.string,
   description: PropTypes.string,
 };
 
-function Formation({ name, description }) {
+function Formation({ name, subtitle, description }) {
   return (
     <div className={styles.formation}>
-      <span>{name}</span>
-      <span>{description}</span>
+      <span className={styles.title}>{name}</span>
+      <span className={styles.subtitle}>{subtitle}</span>
+      {description ? <p className={styles.description}>{description}</p> : ""}
     </div>
   );
 }

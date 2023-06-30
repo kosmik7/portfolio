@@ -1,14 +1,11 @@
 [
   {
-    "name": "Autodidacte",
-    "description": "En perpétuel apprentissage..."
-  },
-  {
     "name": "Formation \nIntégrateur Web",
-    "description": "OpenClassrooms • 9 mois"
+    "subtitle": "OpenClassrooms • 9 mois",
+    "description": "• Créer une application web complète et responsive\n• Dynamiser des pages web.\n• Créer des interfaces communiquant avec le back-end.\n• Optimiser les performances et réaliser la maintenance de sites web déjà existants.\n• Gérer un projet web de A à Z."
   },
   {
     "name": "Niveau BAC Technologique \nSTI électronique",
-    "description": "Lycée Polyvalent Jean Perrin • Saint-Ouen-l'Aumône"
+    "subtitle": "Lycée Polyvalent Jean Perrin • Saint-Ouen-l'Aumône"
   }
 ]
