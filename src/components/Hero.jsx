@@ -24,13 +24,13 @@ export default function Hero() {
           <a href="https://github.com/kosmik7">
             <Button>
               <FontAwesomeIcon icon="fa-brands fa-github" />
-              Github
+              <span>Github</span>
             </Button>
           </a>
-          <a href="mailto:jp.brunache@gmail.com">
+          <a href="https://drive.google.com/file/d/1QklmtcxGUQVFt_ZsonU4YL9Q82Oi1XYA/view?usp=sharing">
             <Button style="outline">
-              <FontAwesomeIcon />
-              Me contacter
+              <FontAwesomeIcon icon="fa-solid fa-file" />
+              <span>Mon CV</span>
             </Button>
           </a>
         </div>
