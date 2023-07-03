@@ -1,4 +1,11 @@
 .container {
+  --icon-size: 48px;
+  --icon-frame: calc(var(--icon-size) / 2 + var(--icon-size));
+
+  @media screen and (min-width: 1025px) {
+    --icon-size: 64px;
+  }
+
   composes: maxWidth from global;
 
   margin-top: 20px;
@@ -20,7 +27,7 @@
   .iconsGrid {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(var(--icon-frame), 1fr));
     gap: 15px 10px;
   }
 
@@ -50,11 +57,7 @@
   text-align: center;
 
   img {
-    width: 64px;
-
-    @media screen and (max-width: 1024px) {
-      width: 48px;
-    }
+    width: var(--icon-size);
   }
 
   span {
