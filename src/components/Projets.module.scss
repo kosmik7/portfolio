@@ -21,7 +21,7 @@
   box-shadow: var(--box-shadow);
 
   @media screen and (min-width: 780px) and (max-width: 1024px) {
-    height: 300px;
+    height: 330px;
     flex-direction: row;
   }
 
@@ -45,6 +45,7 @@
   }
 
   > div {
+    height: 100%;
     display: flex;
     flex-direction: column;
 
@@ -55,13 +56,15 @@
 }
 
 .projetInfo {
-  height: 200px;
+  height: 100%;
+  max-height: 230px;
   padding: 20px;
   background-color: var(--color-light-background);
   overflow: auto;
   overscroll-behavior: contain;
 
   @media screen and (min-width: 780px) and (max-width: 1024px) {
+    max-height: none;
     flex: 1;
   }
 
